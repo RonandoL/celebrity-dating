@@ -1,0 +1,7 @@
+img {
+  max-height: 390px;
+}
+
+.boys18, .boys26, .girls18, .girls26 {
+  display: none;
+}
