@@ -3,6 +3,9 @@ $(document).ready(function() {
     var age = parseInt($("input#age").val());
     var gender = $("select#gender").val();
 
+    // $(".results").children("div").hide();
+    $(".result-row").hide();
+
     if ((gender === "male") && (age > 17) && (age < 25)) {
       $(".boys18").show();
     } else if ((gender === "male") && (age >= 26)) {
